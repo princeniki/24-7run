@@ -8,10 +8,10 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-CODESPACE_NAME = os.getenv('CODESPACE_NAME')
-OWNER = os.getenv('OWNER')
-REPO = os.getenv('REPO')
+GITHUB_TOKEN = os.getenv('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')
+CODESPACE_NAME = os.getenv('turbo-engine-76vxpwxr9jw3x97w')
+OWNER = os.getenv('princeniki')
+REPO = os.getenv('Oyemerijaan')
 
 headers = {
     'Authorization': f'token {GITHUB_TOKEN}',
